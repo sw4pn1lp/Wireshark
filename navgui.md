@@ -32,10 +32,10 @@ Menu bar mostly used in starting the actions
 Main Toolbar contains some of the frequently used items from Menu Bar.
 User cannot customized this bar.
 ![tool](images/4tool.png)
-    1. Capture Options          - Using this option you can select the Interface from the list and also toggle the option for                                             **Promiscus Mode**.
-    1. Start Capture            - Stating the capture of packets.
-    1. Stop Capture             - Stoping the capture of packets.
-    1. Next or Previous Packet  - To Move to Next or Prevoius packet in Packet tree. 
+1. Capture Options          - Using this option you can select the Interface from the list and also toggle the option for                                             **Promiscus Mode**.
+1. Start Capture            - Stating the capture of packets.
+1. Stop Capture             - Stoping the capture of packets.
+1. Next or Previous Packet  - To Move to Next or Prevoius packet in Packet tree. 
 
 ### 3. Filter Toolbar
 The filter toolbar lets you quickly edit and apply display filters. 
