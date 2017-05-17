@@ -1,6 +1,6 @@
 title: Wireshark 101
 description: > # this means to ignore newlines until "baseurl:"
- twitter: <a href="https://twitter.com/sw4pn1lp">@sw4pn1lp</a><br>Website: <a href="http://www.swapnilbpatil.com/">swapnilbpatil.com</a><br>Company: <a href="https://worldinformatixcs.com/">WICS</a><br><img src="https://sw4pn1lp.github.io/wireshark101/images/index.jpg" alt="MU">
+ twitter: <a href="https://twitter.com/sw4pn1lp">@sw4pn1lp</a><br><img src="https://sw4pn1lp.github.io/wireshark101/images/index.jpg" alt="MU">
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
