@@ -51,4 +51,4 @@ It displays all the packets in the current capture file.
 - Packet List pane defult values are - 
   **No, Time, Source, Destination , Protocol, Lenght, Info.**
  #### Packet List Symbols
- 
+ Request - Response - ![reqres](images/7reqres.png)
