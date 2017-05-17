@@ -10,9 +10,9 @@
   But this will work only in broadcast networks. In offices mostly the switch is configured in way that they only allow the packets         intended for the mentioned MAC address.
   
 ## Installation of Wireshark.
-You an Download wireshark at free of cost for [Mac](https://2.na.dl.wireshark.org/osx/Wireshark%202.2.6%20Intel%2064.dmg), [Windows](https://2.na.dl.wireshark.org/win32/Wireshark-win32-2.2.6.exe), Linux
-Download and Install thw Wireshark.
-
+You an Download wireshark at free of cost for [Mac](https://2.na.dl.wireshark.org/osx/Wireshark%202.2.6%20Intel%2064.dmg), [Windows](https://2.na.dl.wireshark.org/win32/Wireshark-win32-2.2.6.exe), Linux.
+Download Wireshark setup and Install it on your system.
+Lets start Wireshark 101.
 
 
 
