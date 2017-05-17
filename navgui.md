@@ -26,7 +26,7 @@ Right Arrow  In the packet detail, opens the selected tree item.
 
 ### 1. Menu Bar
 Menu bar mostly used in starting the actions
-![menu](images/3menu.png)
+![menu](images/2menu.png)
 
 ### 2. Main Toolbar
 Main Toolbar contains some of the frequently used items from Menu Bar.
