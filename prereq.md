@@ -23,3 +23,10 @@ When a hub receives a packet of data (an **Ethernet frame**) at one of its ports
 Switch forwards the ethernet frame from one system to other system in network based on MAC address.
 Switches operates at Layer 2 in OSI Model.
 ![switch](images/switch.jpg)
+
+#### 3-Way Handshake 
+It's a Method used by TCP/IP to establish the connection between Cliet and Server
+1. CLient sends a SYN packet.
+2. Server respnds back with SYN+ACK packet.
+3. Client Acknowedges the SYN+ACK packet by sending ACK packet to server.
+![3way](images/3way.png)
