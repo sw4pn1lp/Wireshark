@@ -50,9 +50,13 @@ It displays all the packets in the current capture file.
 - Packet List Pane will show only Higher level protocol information. as higher level protocol overwrite the information of lower level     and most probably you will see only higher protocol layer Information. 
 - Packet List pane defult values are - 
   **No, Time, Source, Destination , Protocol, Lenght, Info.**
+
 #### Packet List Symbols
+
 ![pstart](images/7pstart.png)  **First Packet in Conversation**
+
 ![pstop](images/7pstop.png)    **Last Packet in Conversation**
+
 ![reqres](images/7reqres.png)  **Request - Response**
 
 ### 5. Packet Details Pane
