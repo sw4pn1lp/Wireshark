@@ -51,4 +51,22 @@ It displays all the packets in the current capture file.
 - Packet List pane defult values are - 
   **No, Time, Source, Destination , Protocol, Lenght, Info.**
 #### Packet List Symbols
-Request - Response - ![reqres](images/7reqres.png)
+![pstart](images/7pstart.png)  **First Packet in Conversation**
+![pstop](images/7pstop.png)    **Last Packet in Conversation**
+![reqres](images/7reqres.png)  **Request - Response**
+
+### 5. Packet Details Pane
+Packet detaails pane shows more details about current packet.
+![pdetail](images/8pdetail.png)
+
+- ** Generated Fields**   These fields are not part of packet. wireshark itself will add them. 
+                          This field is enclosed in square brackets **[ ]**. Generated information includes response times, TCP                                   analysis, GeoIP information, and checksum validation.
+
+- Links                   If wireshark detects any link to other packet, it will generate link.
+
+### 6. Packet Bytes Pane
+This Pane shows the Packet description in hexdump style.
+![pbytes](images/9pbytes.png)
+
+### 7. Status Bar
+This bar shows Informational messages
