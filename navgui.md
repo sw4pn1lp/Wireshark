@@ -58,11 +58,10 @@ It displays all the packets in the current capture file.
 ### 5. Packet Details Pane
 Packet detaails pane shows more details about current packet.
 ![pdetail](images/8pdetail.png)
+** Generated Fields**   These fields are not part of packet. wireshark itself will add them. 
+                        This field is enclosed in square brackets **[ ]**. Generated information includes response times, TCP                                   analysis, GeoIP information, and checksum validation.
 
-- ** Generated Fields**   These fields are not part of packet. wireshark itself will add them. 
-                          This field is enclosed in square brackets **[ ]**. Generated information includes response times, TCP                                   analysis, GeoIP information, and checksum validation.
-
-- Links                   If wireshark detects any link to other packet, it will generate link.
+**Links**               If wireshark detects any link to other packet, it will generate link.
 
 ### 6. Packet Bytes Pane
 This Pane shows the Packet description in hexdump style.
