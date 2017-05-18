@@ -45,8 +45,8 @@ wireshark capture enginr provides following features
   ![interface](images/4interface.png)
   
   **Local Interfaces**   This list consist of all available local interfaces including the hidden ones.
-  ** Pipes**
   
+  ** Pipes**
   ![interface](images/5pipes.png)
   
   **Remote Interfaces**  Using wireshark you can capture remote interface traffic also.
