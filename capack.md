@@ -33,24 +33,24 @@ wireshark capture enginr provides following features
  ### Name Resolution and Stop Capturing
   ![interface](images/3interface.png)
   
-  #### Name Resolution Frame
- **Enable MAC name resolution**  This option allows you to control whether or not Wireshark translates MAC addresses into names.
-                                - ARP name resolution (system service): Wireshark will ask the operating system to convert an Ethernet                                     address to the corresponding IP address (e.g. 00:09:5b:01:02:03 → 192.168.0.1).
-                                - Ethernet codes (ethers file): If the ARP name resolution failed, Wireshark tries to convert the                                         Ethernet address to a known device name, which has been assigned by the user using an ethers file                                       (e.g. 00:09:5b:01:02:03 → homerouter).
-                                - Ethernet manufacturer codes (manuf file): If neither ARP or ethers returns a result, Wireshark tries                                     to convert the first 3 bytes of an ethernet address to an abbreviated manufacturer name, which has                                       been assigned by the IEEE (e.g. 00:09:5b:01:02:03 → Netgear_01:02:03).
+#### Name Resolution Frame
+  **1.Enable MAC name resolution**  This option allows you to control whether or not Wireshark translates MAC addresses into names.
+                                    - ARP name resolution (system service): Wireshark will ask the operating system to convert an                                             Ethernet address to the corresponding IP address (e.g. 00:09:5b:01:02:03 → 192.168.0.1).
+                                    - Ethernet codes (ethers file): If the ARP name resolution failed, Wireshark tries to convert the                                         Ethernet address to a known device name, which has been assigned by the user using an ethers file                                       (e.g. 00:09:5b:01:02:03 → homerouter).
+                                    - Ethernet manufacturer codes (manuf file): If neither ARP or ethers returns a result, Wireshark                                           tries to convert the first 3 bytes of an ethernet address to an abbreviated manufacturer name,                                           which has been assigned by the IEEE (e.g. 00:09:5b:01:02:03 → Netgear_01:02:03).
 
- **Stop Capture**                  In this field you can setup stop capture functionality as per your specified condition.
+  **2.Stop Capture**                  In this field you can setup stop capture functionality as per your specified condition.
 
 ### Manage Interfaces 
   ![interface](images/4interface.png)
   
-  **Local Interfaces**   This list consist of all available local interfaces including the hidden ones.
+  **1.Local Interfaces**   This list consist of all available local interfaces including the hidden ones.
   
-  **Pipes**
+  **2.Pipes**
   
   ![interface](images/5pipes.png)
   
-  **Remote Interfaces**  Using wireshark you can capture remote interface traffic also.
+  **3.Remote Interfaces**  Using wireshark you can capture remote interface traffic also.
                          The Remote Packet Capture Protocol service must first be running on the target platform before Wireshark can                            connect to it. Once installation is completed go to the Services control panel, find the Remote Packet Capture                          Protocol service and start it.
                          
                          
