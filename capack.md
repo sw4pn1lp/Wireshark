@@ -41,3 +41,18 @@ wireshark capture enginr provides following features
 
  **Stop Capture**                  In this field you can setup stop capture functionality as per your specified condition.
 
+### Manage Interfaces 
+  ![interface](images/4interface.png)
+  
+  **Local Interfaces**   This list consist of all available local interfaces including the hidden ones.
+  ** Pipes**
+  
+  ![interface](images/5interface.png)
+  
+  **Remote Interfaces**  Using wireshark you can capture remote interface traffic also.
+                         The Remote Packet Capture Protocol service must first be running on the target platform before Wireshark can                            connect to it. Once installation is completed go to the Services control panel, find the Remote Packet Capture                          Protocol service and start it.
+                         
+                         
+  ![interface](images/6interface.png)                    
+      The dialog based functionality to connect remote system is available only for winndows. For Linux/Unix based system you will need       SSH Tunnel to achieve the same.
+
