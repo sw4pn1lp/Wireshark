@@ -18,7 +18,8 @@ wireshark capture enginr provides following features
   1. **Interface**        This Field will show Local Interface wireshark can access.
   1. **Promiscus Mode**   THis field enabled or disabled PM.
   1. **Monitor Mode**     This Field enabled or disabled MM (Only Available for Unix/Linux).
-  
+
+### Multiple Files in Capture Options
   ![interface](images/2interface.png)
   
   1. Capture File Name
@@ -29,4 +30,14 @@ wireshark capture enginr provides following features
         specified capture file.
         For Ex- in Ring buffer is 3, then Wireshark will keep only last 3 capture files.
  
-![interface](images/3interface.png)
+ ### Name Resolution and Stop Capturing
+  ![interface](images/3interface.png)
+  
+  #### Name Resolution Frame
+ **Enable MAC name resolution**  This option allows you to control whether or not Wireshark translates MAC addresses into names.
+                                - ARP name resolution (system service): Wireshark will ask the operating system to convert an Ethernet                                     address to the corresponding IP address (e.g. 00:09:5b:01:02:03 → 192.168.0.1).
+                                - Ethernet codes (ethers file): If the ARP name resolution failed, Wireshark tries to convert the                                         Ethernet address to a known device name, which has been assigned by the user using an ethers file                                       (e.g. 00:09:5b:01:02:03 → homerouter).
+                                - Ethernet manufacturer codes (manuf file): If neither ARP or ethers returns a result, Wireshark tries                                     to convert the first 3 bytes of an ethernet address to an abbreviated manufacturer name, which has                                       been assigned by the IEEE (e.g. 00:09:5b:01:02:03 → Netgear_01:02:03).
+
+ **Stop Capture**                  In this field you can setup stop capture functionality as per your specified condition.
+
