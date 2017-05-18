@@ -15,6 +15,18 @@ wireshark capture enginr provides following features
   **Capture - Options** Select Inerface and click on **Start**.
   ![interface](images/1interface.png)
   
-  1. **Interface**         is Field will show Local Interface wireshark can access.
-  1. **Promiscus Mode** 
+  1. **Interface**        This Field will show Local Interface wireshark can access.
+  1. **Promiscus Mode**   THis field enabled or disabled PM.
+  1. **Monitor Mode**     This Field enabled or disabled MM (Only Available for Unix/Linux).
   
+  ![interface](images/2interface.png)
+  
+  1. Capture File Name
+  1. Multiple files Specification
+     1. Instead a single file wireshark will switch to next file after reaching a specified condition.
+     1. You can specify condition as a size or time. wireshark will create new file based on whichever condition satisfied first.
+     1. **Ring Buffer** this option will fored a buffer basedd on the given number. in simple terms wireshark will keep only the last 
+        specified capture file.
+        For Ex- in Ring buffer is 3, then Wireshark will keep only last 3 capture files.
+ 
+![interface](images/3interface.png)
