@@ -55,5 +55,6 @@ wireshark capture enginr provides following features
                          
                          
   ![interface](images/6remoteinterface.png)                    
-      The dialog based functionality to connect remote system is available only for winndows. For Linux/Unix based system you will need       SSH Tunnel to achieve the same.
+      The dialog based functionality to connect remote system is available only for winndows. For Linux/Unix based system you       will need SSH Tunnel to achieve the same.
 
+[<< Navigating to wireshark](navgui.md) | [Filters >>](filter.md)
