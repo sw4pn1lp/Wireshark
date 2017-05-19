@@ -74,3 +74,5 @@ This Pane shows the Packet description in hexdump style.
 
 ### 7. Status Bar
 This bar shows Informational messages
+
+[<< Intro to wireshark](introduction.md) | [Capturing Packets >>](capack.md)
