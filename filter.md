@@ -1,7 +1,9 @@
 # Filtering in Wireshark
 Wireshark Provides two type of Filtering 
-1.Filtering while Capturing
-1.Filtering while Displaying
+ 
+ **1.Filtering while Capturing**
+ 
+ **2.Filtering while Displaying**
 
 ### Filtering while Capturing
 Some of the example 
