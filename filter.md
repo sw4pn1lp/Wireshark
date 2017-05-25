@@ -44,14 +44,15 @@ port 80 and tcp[((tcp[12:1] & 0xf0) >> 2):4] = 0x47455420
 ```
 
 ### Display Filters
-| Table           | Command  | Command | 
-|:---------------:|:------- :|:-------:|
-| Equal to         | eq       | ==      |
-| Not equal to     | ne       | !=      |
-| Less than        | lt       | <       |
-| Greter or qual to| ge       | >       |
-| Contains         | Contains |         |
-
+**Some Display filters commands**
+```
+Equal to              "==" or "eq"
+Not equal to          "!=" or "ne"
+Less than             "<" or "lt"
+Greater or equal      ">" or "gt"
+Contains              "Contains"
+Slicing               "[]"
+```
 
 1. Search for traffic from specific IP
 ```
@@ -61,4 +62,21 @@ ip.addr == 192.168.56.101
 ```
 ip.src==192.168.0.0/16 and ip.dst==192.168.0.0/16
 ```
-3. 
+3. Show only specific traffic
+```
+tcp.port eq 25 or icmp
+```
+4. Tcp flags
+```
+tcp.flags.syn == 1
+```
+5. Match HTTP requests where the last characters in the uri are the characters "id=1":
+```
+  http.request.uri matches "id="
+```
+6. Check the contents of DNS Response
+```
+dns.resp.name contains "google"
+```
+
+[Capturing of Packets](capack.md)   | [Advanned Wireshark](advwire.md)
