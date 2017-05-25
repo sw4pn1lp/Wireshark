@@ -1,4 +1,4 @@
-# Filtering in Wireshark
+# Filters in Wireshark
 Wireshark Provides two type of Filtering 
  
  1.Filtering while Capturing
@@ -44,12 +44,15 @@ port 80 and tcp[((tcp[12:1] & 0xf0) >> 2):4] = 0x47455420
 ```
 
 ### Filtering while Displaying (Display Filters)
-                  |Command| Command | 
-Equal to          | eq    | ==      |
-Not equal to      | ne    | !=      |
-Less than         | lt    | <       |
-Greter or qual to | ge    |         |
-Contains          | Contains |      |
+| Table           | Command  | Command | 
+|:---------------:|:------- :|:-------:|
+Equal to          | eq       | ==      |
+Not equal to      | ne       | !=      |
+Less than         | lt       | <       |
+Greter or qual to | ge       |         |
+Contains          | Contains |         |
+
+
 1. Search for traffic from specific IP
 ```
 ip.addr == 192.168.56.101
