@@ -1,4 +1,4 @@
-## Welcome to Wireshark 101
+## Welcome to Wireshark for Beginners
 ## [Prerequisites](prereq.md)
 
 ### 1. [Introduction to Wireshark](introduction.md)
