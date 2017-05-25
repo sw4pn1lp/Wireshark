@@ -79,4 +79,4 @@ tcp.flags.syn == 1
 dns.resp.name contains "google"
 ```
 
-[Capturing of Packets](capack.md)   | [Advanned Wireshark](advwire.md)
+[Capturing of Packets](capack.md)   | [Advanced Wireshark](advwire.md)
