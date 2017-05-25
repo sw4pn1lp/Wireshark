@@ -4,4 +4,5 @@
 ### 1. [Introduction to Wireshark](introduction.md)
 ### 2. [Navigating to GUI](navgui.md)
 ### 3. [Capturing Packets](capack.md)
-### 4. [Filtering in Packets](filter.md)
+### 4. [Filters](filter.md)
+### 5. [Extra Features](advwire.md)
