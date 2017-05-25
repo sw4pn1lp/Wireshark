@@ -5,7 +5,7 @@ Wireshark Provides two type of Filtering
  
  2.Filtering while Displaying
 
-### Filtering while Capturing (Capture Filters)
+### Capture Filters
 Some of the example 
 
 1.Capture only traffic to or from IP address
@@ -43,14 +43,14 @@ port 53
 port 80 and tcp[((tcp[12:1] & 0xf0) >> 2):4] = 0x47455420
 ```
 
-### Filtering while Displaying (Display Filters)
+### Display Filters
 | Table           | Command  | Command | 
 |:---------------:|:------- :|:-------:|
-|Equal to         | eq       | ==      |
-|Not equal to     | ne       | !=      |
-|Less than        | lt       | <       |
-|Greter or qual to| ge       | >       |
-|Contains         | Contains |         |
+| Equal to         | eq       | ==      |
+| Not equal to     | ne       | !=      |
+| Less than        | lt       | <       |
+| Greter or qual to| ge       | >       |
+| Contains         | Contains |         |
 
 
 1. Search for traffic from specific IP
