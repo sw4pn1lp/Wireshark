@@ -5,7 +5,7 @@ Wireshark Provides two type of Filtering
  
  2.Filtering while Displaying
 
-### Filtering while Capturing
+### Filtering while Capturing (Capture Filters)
 Some of the example 
 
 1.Capture only traffic to or from IP address
@@ -43,5 +43,12 @@ port 53
 port 80 and tcp[((tcp[12:1] & 0xf0) >> 2):4] = 0x47455420
 ```
 
-### Filtering while Displaying
-
+### Filtering while Displaying (Display Filters)
+1. Search for traffic from specific IP
+```
+ip.addr == 192.168.56.101
+```
+2.Show only traffic in the LAN (192.168.x.x), between workstations and servers -- no Internet:
+```
+ip.src==192.168.0.0/16 and ip.dst==192.168.0.0/16
+```
