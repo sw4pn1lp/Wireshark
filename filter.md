@@ -1,9 +1,9 @@
 # Filters in Wireshark
 Wireshark Provides two type of Filtering 
  
- 1.Filtering while Capturing
+ 1. Capture Filters
  
- 2.Filtering while Displaying
+ 2. Display Filters
 
 ### Capture Filters
 Some of the example 
@@ -54,29 +54,29 @@ Contains              "Contains"
 Slicing               "[]"
 ```
 
-1. Search for traffic from specific IP
+1.Search for traffic from specific IP
 ```
 ip.addr == 192.168.56.101
 ```
-2. Show only traffic in the LAN (192.168.x.x), between workstations and servers -- no Internet:
+2.Show only traffic in the LAN (192.168.x.x), between workstations and servers -- no Internet:
 ```
 ip.src==192.168.0.0/16 and ip.dst==192.168.0.0/16
 ```
-3. Show only specific traffic
+3.Show only specific traffic
 ```
 tcp.port eq 25 or icmp
 ```
-4. Tcp flags
+4.Tcp flags
 ```
 tcp.flags.syn == 1
 ```
-5. Match HTTP requests where the last characters in the uri are the characters "id=1":
+5.Match HTTP requests where the last characters in the uri are the characters "id=1":
 ```
   http.request.uri matches "id="
 ```
-6. Check the contents of DNS Response
+6.Check the contents of DNS Response
 ```
 dns.resp.name contains "google"
 ```
 
-[Capturing of Packets](capack.md)   | [Advanced Wireshark](advwire.md)
+[<< Capturing of Packets](capack.md)   | [Advanced Wireshark >>](advwire.md)
