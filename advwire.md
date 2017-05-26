@@ -51,7 +51,7 @@ Configuration Profiles can be used to configure and use more than one set of pre
 
 Profiles can be used for customization wireshark settings.
 The benefits of profiles are
-1. Customize the congiguration.
+1. Customize the configuration.
 2. Change the display format.
 3. Disable or Enable the functions of wireshark.
 4. Add new entries to wireshark.
