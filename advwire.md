@@ -44,3 +44,21 @@ Higher level checksums are “traditionally” calculated by the protocol implem
 Recent network hardware can perform advanced features such as IP checksum calculation, also known as **checksum offloading**. The network driver won’t calculate the checksum itself but will simply hand over an empty (zero or garbage filled) checksum field to the hardware.
 
 ![checksum](images/checksum.png)
+
+## Profiles
+
+Configuration Profiles can be used to configure and use more than one set of preferences and configurations.
+
+Profiles can be used for customization wireshark settings.
+The benefits of profiles are
+1. Customize the congiguration.
+2. Change the display format.
+3. Disable or Enable the functions of wireshark.
+4. Add new entries to wireshark.
+
+You can easily switch between the profiles and can changed the configuration with a click.
+
+Acces to profile options 
+**Edit-> Configuration Profiles**
+
+![prof](images/profile.png)
