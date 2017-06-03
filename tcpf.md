@@ -11,7 +11,7 @@ First we will have look at **TCP Header**
 ![Tcp Header](images/tcph.png)
 
 As you can see **Data Offset will start after 12 Bytes** 
-for this we will be using **TCP Slicing** -> tcp(12:1)
+for this we will be using **TCP Slicing -> tcp(12:1)**
 
 tcp(12:1) here **12** will singnify that starting offset in TCP header and 
 **1** will signify the count of byte filter should take account from offset.
@@ -28,7 +28,7 @@ here comes one more concept when you will do a shifting it will multiply the pos
 by 2 so thats why we shifted the value only with 2 and evetually it will get multiply by 2.
 
 Now we got Data offset value - the starting position of Data in TCP,
-the remaining part of **:4** will check for first 4 bytes from the sliced tcp part.
+the remaining part of **4** will check for first 4 bytes from the sliced tcp part.
 the first 4 bytes will get Compare with ASCII equivalent **GET = 0x47455420**
 
 Now you can filter out the GET request.
