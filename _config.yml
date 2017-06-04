@@ -2,4 +2,4 @@ title: Wireshark for Beginners
 description: > # this means to ignore newlines until "baseurl:"
  twitter: <a href="https://twitter.com/sw4pn1lp">@sw4pn1lp</a><br><img src="https://sw4pn1lp.github.io/wireshark/images/index.jpg" alt="MU">
 # Build settings
-theme: jekyll-theme-minimal
+theme: jekyll --no-auto
