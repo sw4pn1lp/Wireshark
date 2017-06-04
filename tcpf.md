@@ -8,7 +8,7 @@ tcp[a:4]
 
 First we will have look at **TCP Header**
 
-![Tcp Header](images/tcph.png)
+![TcpHeader](images/tcph.png)
 
 As you can see **Data Offset will start after 12 Bytes** 
 for this we will be using **TCP Slicing -> tcp(12:1)**
